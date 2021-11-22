@@ -1,13 +1,17 @@
-# Double-pass-fundus-reflection-model
-This is the MATLAB code for retinal image enhancement using Double-pass fundus reflection model.
-This research has been accepted and published in Signal Processing: https://doi.org/10.1016/j.sigpro.2021.108400
+<img src="https://user-images.githubusercontent.com/61624968/142919579-f012d416-371f-4b21-b594-e9aefe7c38ae.jpg" width = "800" alt="" align=center />
+
+# A double-pass fundus reflection model for efficient retinal image enhancement
+This are the MATLAB codes for retinal image enhancement using Double-pass fundus reflection model.
+This research has been accepted and published on Signal Processing: https://doi.org/10.1016/j.sigpro.2021.108400
 
 ## Abstract
-1. This study introduces a novel image formation model - the double pass fundus reflection (DPFR) model for retinal image enhancement (restoration). The DPFR model reveals the specific double pass fundus reflection feature that was hitherto neglected in modeling the light propagation of fundus imaging in all published reports on retinal image enhancement. 
+This study introduces a novel image formation model - the double pass fundus reflection (DPFR) model for retinal image enhancement (restoration). **The DPFR model reveals the specific double-pass fundus reflection feature that was hitherto neglected in modeling the light propagation of fundus imaging in all published reports on retinal image enhancement.** 
 
-2. Based on the DPFR model, the procedures of the proposed retinal image restoration algorithm are given. The failure of the dark channel prior on retinal images in RGB color space is clarified. While a solution about how to bypass the challenge is proposed. Each step of DPFR is tested experimentally with retinal images of different degraded situations to validate its robustness. 
 
-3. Moreover, the DPFR method is tested on 906 images from five public databases. Six image quality matrixes including image definition, image sharpness, image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. The results are compared to the state-of-art methods, showing the superiority of DPFR over the others in terms of restoration quality and implementation efficiency. 
+Based on the DPFR model, the procedures of the proposed retinal image restoration algorithm are given. The failure of the dark channel prior on retinal images in RGB color space is clarified. While a solution about how to bypass the challenge is proposed. Each step of DPFR is tested experimentally with retinal images of different degraded situations to validate its robustness. 
+
+
+Moreover, the DPFR method is tested on 906 images from five public databases. Six image quality matrixes including image definition, image sharpness, image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. The results are compared to the state-of-art methods, showing the superiority of DPFR over the others in terms of restoration quality and implementation efficiency. 
 
 ## Forward problem: double-pass fundus reflection model 
 The double-pass fundus reflection (DPFR) model is inspired by how a retinal image is formed in the fundus camera:
@@ -25,10 +29,25 @@ The flow-chat is list below.
 
 <img src="https://user-images.githubusercontent.com/61624968/142917655-30c88c49-48c8-474b-9367-519ddad11836.png" width = "700" alt="" align=center />
 
-## Quantitative evaluations on public databases
+## Visual assessment
+
+<img src="https://user-images.githubusercontent.com/61624968/142920197-5ec65197-63c0-4a6c-aafa-923780a6a6b4.jpg" width = "700" alt="" align=center />
+
+
+## Objective assessment on public databases
 Six image quality matrixes including image definition, underwater image sharpness, underwater image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. 
+
 **Experimental results show the superiority of the DPFR model over the others in terms of restoration quality and implementation efficiency.**
-LCA: 
+
+LCA:  10.1109/TBME.2017.2700627
+
+
+LPAR: 10.1016/j.sigpro.2019.107445
+
+
+PCA:  10.1007/978-3-030-50516-5_26
+
+
 
 <img src="https://user-images.githubusercontent.com/61624968/142918172-0245df0d-a965-45c2-9ddc-b2eabae2579c.png" width = "700" alt="" align=center />
 
