@@ -39,20 +39,18 @@ The flow-chat is listed below.
 
 Enhancement results. Images in the first row are raw image, enhanced results of LCA, LPAR, PCA, and DPFR methods, respectively. The second third rows are enlarged parts in the corresponding yellow and magenta boxes.
 
-<img src="https://user-images.githubusercontent.com/61624968/142920683-3b52abe1-9500-4ebd-98e5-7578dd69a53c.jpg" width = "750" alt="" align=center />
-
-## Objective assessment on public databases
-Six image quality matrixes including image definition, underwater image sharpness, underwater image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. 
-
-**Experimental results show the superiority of the DPFR model over the others in terms of restoration quality and implementation efficiency.**
-
 *LCA:  10.1109/TBME.2017.2700627*
 
 *LPAR: 10.1016/j.sigpro.2019.107445*
 
 *PCA:  10.1007/978-3-030-50516-5_26*
 
+<img src="https://user-images.githubusercontent.com/61624968/142920683-3b52abe1-9500-4ebd-98e5-7578dd69a53c.jpg" width = "750" alt="" align=center />
 
+## Objective assessment on public databases
+Six image quality matrixes including image definition, underwater image sharpness, underwater image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. 
+
+**Experimental results show the superiority of the DPFR model over the others in terms of restoration quality and implementation efficiency.**
 
 <img src="https://user-images.githubusercontent.com/61624968/142918172-0245df0d-a965-45c2-9ddc-b2eabae2579c.png" width = "700" alt="" align=center />
 
