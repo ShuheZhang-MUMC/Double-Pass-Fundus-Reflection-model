@@ -1,5 +1,34 @@
 # Double-pass-fundus-reflection-model
+This is the MATLAB code for retinal image enhancement using Double-pass fundus reflection model.
+This research has been accepted and published in Signal Processing: https://doi.org/10.1016/j.sigpro.2021.108400
 
-We proposed a new image for mation model for retinal image enhancement, and these MATLAB code achieves the function.
+## Abstract
+1. This study introduces a novel image formation model - the double pass fundus reflection (DPFR) model for retinal image enhancement (restoration). The DPFR model reveals the specific double pass fundus reflection feature that was hitherto neglected in modeling the light propagation of fundus imaging in all published reports on retinal image enhancement. 
 
+2. Based on the DPFR model, the procedures of the proposed retinal image restoration algorithm are given. The failure of the dark channel prior on retinal images in RGB color space is clarified. While a solution about how to bypass the challenge is proposed. Each step of DPFR is tested experimentally with retinal images of different degraded situations to validate its robustness. 
+
+3. Moreover, the DPFR method is tested on 906 images from five public databases. Six image quality matrixes including image definition, image sharpness, image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. The results are compared to the state-of-art methods, showing the superiority of DPFR over the others in terms of restoration quality and implementation efficiency. 
+
+## Forward problem: double-pass fundus reflection model 
+The double-pass fundus reflection (DPFR) model is inspired by how a retinal image is formed in the fundus camera:
+
+<img src="https://user-images.githubusercontent.com/61624968/142916047-1aa1be65-d648-4d6d-863c-526a6a8efc11.png" width = "700" alt="" align=center />
+
+## Inverse problem: image restoration
+The inverse problem is divided into four steps:
+1. Retinal image back ground padding
+2. Coarse illumination correction (Retinex theory)
+3. Fine illumination boosting (Dark channel prior)
+4. Scattering suppression (Dark channel prior) 
+
+The flow-chat is list below.
+
+<img src="https://user-images.githubusercontent.com/61624968/142917655-30c88c49-48c8-474b-9367-519ddad11836.png" width = "700" alt="" align=center />
+
+## Quantitative evaluations on public databases
+Six image quality matrixes including image definition, underwater image sharpness, underwater image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. 
+**Experimental results show the superiority of the DPFR model over the others in terms of restoration quality and implementation efficiency.**
+LCA: 
+
+<img src="https://user-images.githubusercontent.com/61624968/142918172-0245df0d-a965-45c2-9ddc-b2eabae2579c.png" width = "700" alt="" align=center />
 
