@@ -22,7 +22,7 @@ Moreover, the DPFR method is tested on 906 images from five public databases. Si
 ## Forward problem: double-pass fundus reflection model 
 The double-pass fundus reflection (DPFR) model is inspired by how a retinal image is formed in the fundus camera:
 
-<img src="https://user-images.githubusercontent.com/61624968/142916047-1aa1be65-d648-4d6d-863c-526a6a8efc11.png" width = "700" alt="" align=center />
+<img src="https://user-images.githubusercontent.com/61624968/142916047-1aa1be65-d648-4d6d-863c-526a6a8efc11.png" width = "600" alt="" align=center />
 
 ## Inverse problem: image restoration
 The inverse problem is divided into four steps:
@@ -33,13 +33,13 @@ The inverse problem is divided into four steps:
 
 The flow-chat is listed below.
 
-<img src="https://user-images.githubusercontent.com/61624968/142917655-30c88c49-48c8-474b-9367-519ddad11836.png" width = "700" alt="" align=center />
+<img src="https://user-images.githubusercontent.com/61624968/142917655-30c88c49-48c8-474b-9367-519ddad11836.png" width = "550" alt="" align=center />
 
 ## Visual assessment
 
 Enhancement results. Images in the first row are raw image, enhanced results of LCA, LPAR, PCA, and DPFR methods, respectively. The second third rows are enlarged parts in the corresponding yellow and magenta boxes.
 
-<img src="https://user-images.githubusercontent.com/61624968/142920683-3b52abe1-9500-4ebd-98e5-7578dd69a53c.jpg" width = "700" alt="" align=center />
+<img src="https://user-images.githubusercontent.com/61624968/142920683-3b52abe1-9500-4ebd-98e5-7578dd69a53c.jpg" width = "750" alt="" align=center />
 
 ## Objective assessment on public databases
 Six image quality matrixes including image definition, underwater image sharpness, underwater image local contrast, image multiscale contrast, image entropy, and fog density are used for objective assessments. 
