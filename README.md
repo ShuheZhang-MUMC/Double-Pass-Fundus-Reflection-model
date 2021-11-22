@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/61624968/142919579-f012d416-371f-4b21-b594-e9aefe7c38ae.jpg" width = "800" alt="" align=center />
 
 # A double-pass fundus reflection model for efficient retinal image enhancement
-This are the MATLAB codes for retinal image enhancement using Double-pass fundus reflection model.
+This is the MATLAB code for retinal image enhancement using Double-pass fundus reflection model.
 This research has been accepted and published on Signal Processing: https://doi.org/10.1016/j.sigpro.2021.108400
 
 ## Abstract
