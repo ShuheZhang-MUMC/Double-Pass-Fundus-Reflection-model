@@ -3,6 +3,12 @@
 # A double-pass fundus reflection model for efficient retinal image enhancement
 This is the MATLAB code for retinal image enhancement using Double-pass fundus reflection model.
 This research has been accepted and published on Signal Processing: https://doi.org/10.1016/j.sigpro.2021.108400
+### USAGE:
+Run *main_adaptive_DPFR_ycbcrITU.m* and select a retinal image. 
+
+The gray value threshold in red channel for background padding should be adjusted if the retinal image has severe illumination problem, for example, it should be set to 2 for DiaRetdb0_image034.png. Normally, the value is set to 20. 
+
+Other parameters are automatically and adaptively determined.
 
 ## Abstract
 This study introduces a novel image formation model - the double pass fundus reflection (DPFR) model for retinal image enhancement (restoration). **The DPFR model reveals the specific double-pass fundus reflection feature that was hitherto neglected in modeling the light propagation of fundus imaging in all published reports on retinal image enhancement.** 
