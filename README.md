@@ -38,7 +38,7 @@ The inverse problem is divided into four steps:
 The flow-chat is listed below.
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/61624968/142917655-30c88c49-48c8-474b-9367-519ddad11836.png" width = "550" alt="" align=center />
+<img src="https://user-images.githubusercontent.com/61624968/142917655-30c88c49-48c8-474b-9367-519ddad11836.png" width = "750" alt="" align=center />
 </div>
 
 ## Visual assessment
